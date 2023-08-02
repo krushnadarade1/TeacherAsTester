@@ -6,7 +6,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
 		features= {"AllFeatureFiles"},
 		glue= {"StepDefinition"},
-		tags="@LoginPage",
+		tags="@LoginPage or @HomePage",
 		dryRun=false,
 		plugin= {"pretty","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 		)
